@@ -52,6 +52,9 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
+static void task1_handler(void * parameters);
+static void task2_handler(void * parameters);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -99,7 +102,11 @@ int main(void)
 
   status =  xTaskCreate(task1_handler, "Task 1", 200, "Hello world from Task-1", 2, &task1_handle);
 
-  configA
+  configASSERT(status = pdPASS)
+
+  status =  xTaskCreate(task2_handler, "Task 1", 200, "Hello world from Task-2", 2, &task2_handle);
+
+  configASSERT(status = pdPASS)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -205,6 +212,16 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void task1_handler(void* parameters)
+{
+
+}
+
+void task2_handler(void* parameters)
+{
+
+}
 
 /* USER CODE END 4 */
 

@@ -25,7 +25,17 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h \
+ C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -54,3 +64,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h:
+C:/Users/beckm/OneDrive/WinDev/stm32-FreeRTOS/stm32-dev/workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h:
