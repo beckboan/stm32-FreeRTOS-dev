@@ -21,7 +21,7 @@ Layers:
 
 - Can be applied to other microcontrollers and IDEs
 
-#### Steps
+#### Steps to add FreeRTOS Source
 
 1. Download RTOS Kernel
 2. Copy license to license folder
@@ -40,3 +40,13 @@ Layers:
 11. Add FreeRTOSConfig.h to preprocessor headers
 12. Device manager NVIC, pendable request for system service, systick timer, and sys service call.
 13. Fix any hook functions needed
+
+#### Time based source selection
+
+- FreeRTOS uses ARM Cortex MC internal systick as its time base (RTOS ticking)
+- STM32 Cube HAL layer also uses systick timer as its time base
+- If you are using both freeRTOS and STM32 Cube HAL, there will be a conflict to use a timebase source
+- It is **strongly reccomended** to use the _STM32 cube HAL layer timebase source_ other than systick time (use any timer peripheral on MCU)
+
+1. Switch systic in core to Timer 6?
+2. Change priority group in NVIC to 4 bits for pre-emption priority
